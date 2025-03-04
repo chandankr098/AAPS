@@ -1,0 +1,12 @@
+public class SumSecondToSecondLast {
+    public static void main(String[] args) {
+        int[] arr = {9, 4, 1, 2, 0, 5};
+        int sum = 0;
+       
+        for (int i = 1; i < arr.length - 1; i++) {
+            sum += arr[i];
+        }
+        
+        System.out.println("Sum: " + sum);
+    }
+}
